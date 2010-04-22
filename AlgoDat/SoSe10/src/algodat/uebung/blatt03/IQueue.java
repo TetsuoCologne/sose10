@@ -1,4 +1,4 @@
-package algdat.uebung.blatt03;
+package algodat.uebung.blatt03;
 
 public interface IQueue {
 	
