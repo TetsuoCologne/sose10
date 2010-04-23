@@ -21,7 +21,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blatt02.Aufgabe02", "Blatt0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blatt02.Aufgabe03", "Blatt02.Aufgabe03\Blatt02.Aufgabe03.vcproj", "{D5A78D07-7423-45B8-BDD3-F40B4E56BA46}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blatt03.Aufgabe04", "Blatt03.Aufgabe04\Blatt03.Aufgabe04.vcproj", "{2D713CF8-39AE-48FE-8876-78EF5708611B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blatt02.Aufgabe04", "Blatt03.Aufgabe04\Blatt03.Aufgabe04.vcproj", "{2D713CF8-39AE-48FE-8876-78EF5708611B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blatt03.Aufgabe01", "Blatt03.Aufgabe01\Blatt03.Aufgabe01.vcproj", "{BB0B9DF2-B3A5-4E37-A869-0E29CB922AEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blatt03.Aufgabe03", "Blatt03.Aufgabe03\Blatt03.Aufgabe03.vcproj", "{8A437CA7-761B-44C7-A716-842A781D80DA}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
@@ -77,6 +81,14 @@ Global
 		{2D713CF8-39AE-48FE-8876-78EF5708611B}.Debug|Win32.Build.0 = Debug|Win32
 		{2D713CF8-39AE-48FE-8876-78EF5708611B}.Release|Win32.ActiveCfg = Release|Win32
 		{2D713CF8-39AE-48FE-8876-78EF5708611B}.Release|Win32.Build.0 = Release|Win32
+		{BB0B9DF2-B3A5-4E37-A869-0E29CB922AEA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB0B9DF2-B3A5-4E37-A869-0E29CB922AEA}.Debug|Win32.Build.0 = Debug|Win32
+		{BB0B9DF2-B3A5-4E37-A869-0E29CB922AEA}.Release|Win32.ActiveCfg = Release|Win32
+		{BB0B9DF2-B3A5-4E37-A869-0E29CB922AEA}.Release|Win32.Build.0 = Release|Win32
+		{8A437CA7-761B-44C7-A716-842A781D80DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A437CA7-761B-44C7-A716-842A781D80DA}.Debug|Win32.Build.0 = Debug|Win32
+		{8A437CA7-761B-44C7-A716-842A781D80DA}.Release|Win32.ActiveCfg = Release|Win32
+		{8A437CA7-761B-44C7-A716-842A781D80DA}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
