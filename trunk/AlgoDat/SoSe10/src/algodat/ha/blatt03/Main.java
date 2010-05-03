@@ -10,9 +10,7 @@ public class Main {
     tree.insert (10);
     tree.insert (30);
     tree.insert (60);
-    tree.remove (60);
-    tree.remove (20);
-    tree.remove (30);
+
     System.out.println (tree);
   }
 }
