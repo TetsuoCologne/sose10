@@ -1,3 +1,4 @@
+package algodat.ha.blatt04;
 
 public class BNode {
 
