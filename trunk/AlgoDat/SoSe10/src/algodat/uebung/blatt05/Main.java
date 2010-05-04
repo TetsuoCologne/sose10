@@ -23,7 +23,7 @@ public class Main {
 			}
 		}
 		
-aa		System.out.println(spiele.contains("Halo: Reach"));
+		System.out.println(spiele.contains("Halo: Reach"));
 		System.out.println(spiele.contains("Super Mario Galaxy 2"));
 		System.out.println(spiele.contains("WOW"));
 	}
