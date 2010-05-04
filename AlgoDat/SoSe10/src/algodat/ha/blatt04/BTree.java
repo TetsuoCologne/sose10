@@ -1,3 +1,5 @@
+package algodat.ha.blatt04;
+
 public class BTree {
 
 	private BNode wurzel;
@@ -12,7 +14,7 @@ public class BTree {
 
 	public void insert(int wert) {
 		search(wert);
-		if(this.searchBlatt != null) {
+		if (this.searchBlatt != null) {
 			insert(this.searchBlatt, wert);
 		} else {
 			insert(this.wurzel, wert);
@@ -31,7 +33,7 @@ public class BTree {
 			if (node == this.wurzel) {
 				BNode parent = new BNode(null, tmp, this.ordnung);
 				parent.setRef(0, node);
-				//node.remove(this.ordnung);
+				// node.remove(this.ordnung);
 				parent.setRef(1, current);
 				this.wurzel = parent;
 				if (parent.isFull()) {

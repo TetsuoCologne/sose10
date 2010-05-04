@@ -1,9 +1,9 @@
 package algodat.ha.blatt04;
 
-public class Main {
+public class Main_del {
 
   public static void main (String[] args) {
-    BTree tree = new BTree ();
+    BTree_del tree = new BTree_del ();
     tree.insert (10);
     tree.insert (50);
     tree.insert (100);

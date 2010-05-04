@@ -2,7 +2,7 @@ package algodat.ha.blatt04;
 
 import java.util.ArrayList;
 
-public class BTree {
+public class BTree_del {
 	private Node root;
 	
 	class Node{
