@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <string>
+#include <fstream>
 
 using namespace std;
 
@@ -18,4 +19,9 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 
 	return 0;
+}
+
+void readData(const char* pcFileName, unsigned int& szData, Data*& data)
+{
+	ifstream in;
 }
