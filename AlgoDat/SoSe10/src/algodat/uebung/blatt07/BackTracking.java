@@ -7,7 +7,7 @@ public class BackTracking {
 
 	public String Gewichtsverteilung(int ware, int i, String result) {
 
-
+//test
 			int temp = gewicht;
 			gewicht += gewichte[i];
 			if (gewicht == ware) {
