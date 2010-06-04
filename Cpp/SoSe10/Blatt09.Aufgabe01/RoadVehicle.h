@@ -6,6 +6,7 @@ class RoadVehicle : public Vehicle{
 public:
 	RoadVehicle(int=0, double=0, int=0) ;
 	int getWheels();
+	virtual std::string id();
 protected:
 	int wheels;
 };
