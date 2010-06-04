@@ -7,3 +7,8 @@ RoadVehicle::RoadVehicle(int wh, double w, int s)
   weight = w;
   serialNo = s;
 }
+
+int RoadVehicle::getWheels()
+{
+	return wheels;
+}
