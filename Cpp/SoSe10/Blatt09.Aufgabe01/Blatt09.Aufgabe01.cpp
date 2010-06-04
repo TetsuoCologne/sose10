@@ -2,7 +2,10 @@
 //
 
 #include "stdafx.h"
-//#include "Vehicle.h"
+#ifndef VEHICLE
+#define VEHICLE
+#include "Vehicle.h"
+#endif
 #include "RoadVehicle.h"
 #include <iostream>;
 

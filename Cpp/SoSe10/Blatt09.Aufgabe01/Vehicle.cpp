@@ -1,5 +1,9 @@
 #include "stdafx.h";
+#ifndef VEHICLE
+#define VEHICLE
 #include "Vehicle.h"
+#endif
+
 
 Vehicle::Vehicle(double w, int s)
 {
