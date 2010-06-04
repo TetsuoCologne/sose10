@@ -7,7 +7,9 @@
 #include "Vehicle.h"
 #endif
 #include "RoadVehicle.h"
-#include <iostream>;
+#include "RailVehicle.h"
+#include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -17,6 +19,10 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	Vehicle v;
 	RoadVehicle r;
+	RailVehicle rV;
+	cout << v.id() << endl;
+	cout << r.id() << endl;
+	cout << rV.id() << endl;
 	return 0;
 }
 

@@ -12,3 +12,8 @@ int RoadVehicle::getWheels()
 {
 	return wheels;
 }
+
+std::string RoadVehicle::id()
+{
+	return "RoadVehicle";
+}
