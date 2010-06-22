@@ -41,6 +41,7 @@ public class DeletePackage {
 			pw.println(list.get(i));
 		}
 		pw.close();
+		
 	}
 	
 }
